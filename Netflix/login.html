@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/app.css" />
+</head>
+<body class="body">
+    <header class="login">
+        <div class="header__grid header__contenedor">
+          <div class="header__logo">
+            <h1 class="header__heading">Netflix</h1>
+          </div>
+      
+        </div>
+  
+   
+      </header>
+
+
+      <main class="iniciar">
+
+        <h2 class="iniciar__heading">
+            Inicia sesión
+        </h2>
+
+        <div class="iniciar__campo">
+            <input type="email" class="iniciar__input" placeholder="Email o número de teléfono">
+            <input type="password" class="iniciar__input" placeholder="Contraseña">
+            <div class="iniciar__submit">
+                <input type="submit" class="iniciar__boton" value="Iniciar sesión">
+
+
+            </div>
+
+            <div class="iniciar__grid">
+                <div class="iniciar__che">
+                    <input type="checkbox" class="iniciar__box">
+                    <p class="iniciar__box">Recuérdame</p>
+                    
+                </div>
+                
+                <p class="iniciar__ayuda">¿Necesitas ayuda?</p>
+
+            </div>
+
+            <div class="iniciar__descripcion">
+                <p class="iniciar__texto">¿Primera vez en Netflix <span class="iniciar__spam">Suscribete ahora</span></p>
+                <p class="iniciar__txt">
+                    Esta página está protegida por Google reCAPTCHA 
+                    para comprobar que no eres un robot <span class="iniciar__link">Más info</span>
+                </p>
+            </div>
+    
+        </div>
+
+      </main>
+
+
+
+      
+    <footer class="footer footer__login">
+        <div class="footer__contenedor">
+          <p class="footer__heading">¿Preguntas? 
+            Llama al 9999-000-0979</p>
+  
+            <div class="footer__grid">
+  
+              <div class="footer__opcion">
+                <li class="footer__link">Preguntas Frecuentes</li>
+                <li class="footer__link">Relaciones con inversionistas</li>
+                <li class="footer__link">Formas de ver</li>
+                <li class="footer__link">Información corporativa</li>
+                <li class="footer__link">Solo en Netflix</li>
+  
+  
+  
+              
+              </div>
+  
+              <div class="footer__opcion">
+                <li class="footer__link">Centro de ayuda</li>
+                <li class="footer__link">Empleo</li>
+                <li class="footer__link">Términos de uso</li>
+                <li class="footer__link">Contactanos</li>
+  
+  
+  
+              
+              </div>
+  
+  
+              <div class="footer__opcion">
+                <li class="footer__link">Cuenta</li>
+                <li class="footer__link">Canjear tarjetas de regalo</li>
+                <li class="footer__link">Privacidad</li>
+                <li class="footer__link">Prueba de velocidad</li>
+  
+  
+  
+              
+              </div>
+  
+              <div class="footer__opcion">
+                <li class="footer__link">Prensa</li>
+                <li class="footer__link">Compra de tarjetas de regalo</li>
+                <li class="footer__link">Preferencias de cookies</li>
+                <li class="footer__link">Avisos legales</li>
+  
+  
+  
+              
+              </div>
+            
+            </div>
+  
+            <div class="footer__idioma">
+  
+              <div class="header__navegacion header__navegacion--footer">
+                <form class="header__formulario">
+                  <select class="header__select
+                   header__select--footer" name="jumpMenu" id="jumpMenu">
+                    <option value="index.html" class="header__opcion" selected="select">
+                      Español
+                    </option>
+                    <option value="ingles.html" class="header__opcion">
+                      English
+                    </option>
+                  </select>
+                </form>
+      
+                <a href="Login.html" class="header__link--blanco">netflix mexico</a>
+              </div>
+  
+            </div>
+  
+  
+  
+  
+        </div>
+      </footer>
+  
+  
+  
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+          <script type="text/javascript">
+      $(function (){
+      $("#jumpMenu").change(function(e) {
+      window.location.href = $(this).val();
+      });
+      });
+      </script> 
+    
+</body>
+</html>
